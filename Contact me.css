@@ -1,0 +1,48 @@
+body{
+
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Hammersmith One', sans-serif;
+  color:#ff8080;
+}
+
+h1{
+  margin: 50px auto;
+}
+
+hr{
+ border: dashed;
+ color: #ffe6e6;
+ width: 20%;
+ border-bottom: none;
+ margin: 70px auto;
+
+}
+
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #e6928a;
+	background:linear-gradient(to bottom, #db675e 5%, #fa9d96 100%);
+	background-color:#db675e;
+	border-radius:25px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #bd332a;
+  margin-top: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #fa9d96 5%, #db675e 100%);
+	background-color:#fa9d96;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
